@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34003.232
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{8E9F063A-421E-48B8-AC50-A790B042ED26}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{7D2C353C-5042-4111-A6D5-923DDE9726D5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{3332E35C-FC1B-4BD9-B705-7D03A467E35E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{760BF500-3331-47A1-B329-AC1C51866439}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{8A58CA88-2A50-4B46-8469-6B656249F3B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeManagement.Application", "EmployeeManagement.Application\EmployeeManagement.Application.csproj", "{F385129F-E4EB-4361-A319-5C69E609346B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeManagement.Domain", "EmployeeManagement.Domain\EmployeeManagement.Domain.csproj", "{447BD02C-8C05-4F34-B7F0-1A7925CE30D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeManagement.Infrastructure", "EmployeeManagement.Infrastructure\EmployeeManagement.Infrastructure.csproj", "{C716BB81-C2CD-4E97-89C3-E47005B679B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeManagementAPI", "EmployeeManagementAPI\EmployeeManagementAPI.csproj", "{8DB8B6DD-A211-4FA9-ADAD-B0D0212D1E4C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F385129F-E4EB-4361-A319-5C69E609346B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F385129F-E4EB-4361-A319-5C69E609346B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F385129F-E4EB-4361-A319-5C69E609346B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F385129F-E4EB-4361-A319-5C69E609346B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{447BD02C-8C05-4F34-B7F0-1A7925CE30D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{447BD02C-8C05-4F34-B7F0-1A7925CE30D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{447BD02C-8C05-4F34-B7F0-1A7925CE30D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{447BD02C-8C05-4F34-B7F0-1A7925CE30D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C716BB81-C2CD-4E97-89C3-E47005B679B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C716BB81-C2CD-4E97-89C3-E47005B679B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C716BB81-C2CD-4E97-89C3-E47005B679B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C716BB81-C2CD-4E97-89C3-E47005B679B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DB8B6DD-A211-4FA9-ADAD-B0D0212D1E4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DB8B6DD-A211-4FA9-ADAD-B0D0212D1E4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DB8B6DD-A211-4FA9-ADAD-B0D0212D1E4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DB8B6DD-A211-4FA9-ADAD-B0D0212D1E4C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{760BF500-3331-47A1-B329-AC1C51866439} = {8E9F063A-421E-48B8-AC50-A790B042ED26}
+		{8A58CA88-2A50-4B46-8469-6B656249F3B9} = {8E9F063A-421E-48B8-AC50-A790B042ED26}
+		{F385129F-E4EB-4361-A319-5C69E609346B} = {760BF500-3331-47A1-B329-AC1C51866439}
+		{447BD02C-8C05-4F34-B7F0-1A7925CE30D0} = {8A58CA88-2A50-4B46-8469-6B656249F3B9}
+		{C716BB81-C2CD-4E97-89C3-E47005B679B1} = {7D2C353C-5042-4111-A6D5-923DDE9726D5}
+		{8DB8B6DD-A211-4FA9-ADAD-B0D0212D1E4C} = {3332E35C-FC1B-4BD9-B705-7D03A467E35E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7B27B4F3-DC82-46A6-9C47-630494A8E6D4}
+	EndGlobalSection
+EndGlobal
